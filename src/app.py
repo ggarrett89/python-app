@@ -14,6 +14,7 @@ def details():
     	'hostname': socket.gethostname(),
         'message': 'You are doing great, little human! <3',
         'deployed_on': 'kubernetes'
+        # execution test
     })
 
 @app.route('/api/v1/healthz')
